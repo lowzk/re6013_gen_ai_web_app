@@ -65,6 +65,8 @@ export default function TravelPlanner() {
   return (
     <div className="max-w-lg mx-auto p-4">
       <h1 className="text-2xl font-bold mb-4">AI Travel Planner</h1>
+      <h2 className="text-sm">Done by Low Zhe Kai</h2>
+      <br></br>
       <form onSubmit={handleSubmit} className="space-y-3">
         <input
           name="age"
