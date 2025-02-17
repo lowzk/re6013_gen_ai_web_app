@@ -65,7 +65,7 @@ export default function TravelPlanner() {
   return (
     <div className="max-w-lg mx-auto p-4">
       <h1 className="text-2xl font-bold mb-4">AI Travel Planner</h1>
-      <h2 className="text-sm">Done by Low Zhe Kai</h2>
+      <p className="text-sm">This project is a full stack web application done by <b>Low Zhe Kai</b> using the Next.js framework. It is a AI travel planner, where users can input their details and interests, and the backend will generate a customised itinerary. <br/><br/>This is done by sending the information to a LLM (Gemini), making it return its output formatted as a JSON, and subsequently parsing that output.</p>
       <br></br>
       <form onSubmit={handleSubmit} className="space-y-3">
         <input
